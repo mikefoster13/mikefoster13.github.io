@@ -1,0 +1,18 @@
+.jumbotron {
+	background-color: black;
+}
+
+.header {
+	color: white;
+	font-family: "Linden Hill", serif;
+}
+
+@font-face {   
+	font-family: "Linden Hill";   
+	src: url("LindenHill-webfont.ttf") format("opentype"); 
+}
+
+#navigation {
+	padding-left: 45px;
+	margin-left: 45px;
+}
