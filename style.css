@@ -39,14 +39,15 @@ h1 {
 }
 
 img {
-	width: 300px;
-	height: 650px;
+	max-width: 300px;
+	max-height: 700px;
 }
 	
 .container-2 {
 	border: dashed;
 	padding: 50px;
 	font-family: "Linden Hill", serif;
+
 }
 
 h2 {
