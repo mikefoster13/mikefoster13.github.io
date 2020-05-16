@@ -1,32 +1,39 @@
+/*Sets the background image for the jumbotron */
 .jumbotron {
 	
-	background: url("https://img.wallpapersafari.com/desktop/1600/900/6/12/JegsTi.jpg")
+	background: url("back.jpg");
 }
 
+/*Sets the font color in the jumbotron*/
 .header {
 	color: white;
 	font-family: "Linden Hill", serif;
 }
 
-@font-face {   
-	font-family: "Linden Hill";   
-	src: url("LindenHill-webfont.ttf") format("opentype"); 
+/*Sets the font used for the jumbotron and body text*/
+@font-face {
+	font-family: "Linden Hill";
+	src: url("LindenHill-webfont.ttf") format("opentype");
 }
 
+
+/*Sets the max width to align the nav bar with the jumbotron*/
 @media (min-width: 1200px) {     
 	.container{         
 		max-width: 970px;    
 	 } 
 }
-
+/*Aligns H1 text in center of screen */
 h1 {
 	text-align: center;
 }
 
+/*Sets the font color black in the container*/
 .container {
 	color: black;
 }
 
+/*Used to center the yearbook photo*/
 .center {
   display: block;
   margin-left: auto;
@@ -34,15 +41,18 @@ h1 {
   width: 50%;
 }
 
+/*Italicizes the headers*/
 .t1 {
 	font-style: italic;
 }
 
+/*Constraints for the yearbook image*/
 img {
 	max-width: 300px;
 	max-height: 700px;
 }
-	
+
+/*Container for body text. Sets font and border with padding*/	
 .container-2 {
 	border: dashed;
 	padding: 50px;
@@ -50,6 +60,7 @@ img {
 
 }
 
+/*Aligns H2 text in the center of the screen*/
 h2 {
 	text-align: center;
 }
